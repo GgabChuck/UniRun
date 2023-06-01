@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
             // 게임오버 상태에서 마우스 왼쪽 버튼을 클릭하면 현재 씬 재시작
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+            // 뒤로가기, Esc 버튼을 누르면 게임 종료
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();
